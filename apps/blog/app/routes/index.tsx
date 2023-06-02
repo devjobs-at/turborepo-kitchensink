@@ -1,4 +1,3 @@
-import { Link } from "@remix-run/react";
 import { CounterButton, NewTabLink } from "ui";
 
 export const config = { runtime: 'edge' };
@@ -10,7 +9,7 @@ export default function Index() {
         Blog <br />
         <span>Kitchen Sink</span>
       </h1>
-      <Link to="/og">Vercel OG Image</Link>
+      <a href="/og" target="_blank">Vercel OG Image</a>
       <CounterButton />
       <p className="description">
         Built With{" "}
