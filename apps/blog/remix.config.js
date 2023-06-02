@@ -14,6 +14,7 @@ module.exports = {
     unstable_tailwind: true,
     unstable_postcss: true,
   },
+  serverDependenciesToBundle: process.env.NODE_ENV === "development" ? ['@vercel/og'] : [],
   // Tell Remix to ignore everything in the routes directory.
   // We'll let `createRoutesFromFolders` take care of that.
   ignoredRouteFiles: ["**/*"],
