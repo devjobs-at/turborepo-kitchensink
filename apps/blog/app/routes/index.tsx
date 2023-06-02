@@ -10,7 +10,7 @@ export default function Index() {
         <span>Kitchen Sink</span>
       </h1>
       <a href="/og" target="_blank">Vercel OG Image App</a>
-      <a href="/og" target="_blank">Vercel OG Image Library</a>
+      <a href="/og-lib" target="_blank">Vercel OG Image Library</a>
       <CounterButton />
       <p className="description">
         Built With{" "}
