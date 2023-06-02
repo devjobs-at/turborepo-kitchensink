@@ -9,7 +9,8 @@ export default function Index() {
         Blog <br />
         <span>Kitchen Sink</span>
       </h1>
-      <a href="/og" target="_blank">Vercel OG Image</a>
+      <a href="/og" target="_blank">Vercel OG Image App</a>
+      <a href="/og" target="_blank">Vercel OG Image Library</a>
       <CounterButton />
       <p className="description">
         Built With{" "}

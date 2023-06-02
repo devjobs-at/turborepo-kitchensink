@@ -16,7 +16,7 @@ export const loader: LoaderFunction = async () => {
           width: '100%'
         }}
       >
-        <h1>Welcome to Remix</h1>
+        <h1>Welcome to Remix - App Response</h1>
       </div>
     )
   );
